@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+                box-sizing: border-box;
+                margin: 0px;
+                padding: 0px;
+}
+body{
+                font-family: work sans;
+}
+
+ .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100px;
+ }
+.image-container {
+                background-image: url(B10A1-Challenge-Begins-main/assets/Hero-bg.png);
+                width: 1320px;
+                margin: 0 auto;
+                border: 2px solid red;
+                min-height: 652px;
+                margin-top: 150px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-blend-mode: overlay;
+         }   
+.image-contant {
+              
+                display: flex;
+                flex-direction: column;
+                height: 350px;
+                justify-content: center;
+                align-items: center;
+         }
+ .second-container {
+       background-image: url(B10A1-Challenge-Begins-main/assets/Layer_1.png);
+                width: 1320px;
+                margin: 0 auto;
+                border: 2px solid rgb(214, 14, 14);
+                min-height: 652px;
+                margin-top: 150px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-blend-mode: overlay;
+                background-image: url(B10A1-Challenge-Begins-main/assets/Group 3.png);
+}
+.Third-container {
+       border: 2px solid rgb(214, 14, 14);
+       position: static;
+width: 852px;
+height: 52px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.Four-container{
+       
+}
+
+        
+  
